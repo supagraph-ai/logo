@@ -1,0 +1,20 @@
+<svg viewBox="0 0 256 256" xmlns="http://www.w3.org/2000/svg">
+  <!-- Base square with rounded corners -->
+  <rect x="28" y="28" width="200" height="200" rx="20" fill="black" />
+  
+  <!-- Letter "S" stylized as a network graph node -->
+  <circle cx="78" cy="108" r="18" fill="white" />
+  <circle cx="138" cy="78" r="18" fill="white" />
+  <circle cx="178" cy="148" r="18" fill="white" />
+  <circle cx="108" cy="178" r="18" fill="white" />
+  
+  <!-- Connecting lines to form a graph -->
+  <line x1="78" y1="108" x2="138" y2="78" stroke="white" stroke-width="6" />
+  <line x1="138" y1="78" x2="178" y2="148" stroke="white" stroke-width="6" />
+  <line x1="178" y1="148" x2="108" y2="178" stroke="white" stroke-width="6" />
+  <line x1="108" y1="178" x2="78" y2="108" stroke="white" stroke-width="6" />
+  <line x1="78" y1="108" x2="178" y2="148" stroke="white" stroke-width="6" />
+  
+  <!-- Highlight dot -->
+  <circle cx="78" cy="108" r="8" fill="#3ecf8e" />
+</svg>
